@@ -11,6 +11,7 @@ docker build --rm --tag=kerdlix/docker-eap-6.4-example .
 ## Run
 ```
 docker run -it -p 8080:8080 -p 9990:9990 kerdlix/docker-eap-6.4-example
+http://localhost:8080/node-info/
 ```
 
 ## Import image
